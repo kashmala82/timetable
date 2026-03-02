@@ -1,0 +1,45 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #f0f2f5;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.table-container {
+    overflow-x: auto; /
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    min-width: 800px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #444;
+    color: white;
+}
+
+.day {
+    font-weight: bold;
+    background-color: #f8f8f8;
+}
+
+/* Colors from your image */
+.green { background-color: #c8e6c9; }
+.red { background-color: #ffcdd2; }
+.brown { background-color: #d7ccc8; }
+
+/* Thora sa style aur */
+tr:hover { background-color: #fafafa; }
